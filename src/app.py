@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from modules.dictionaries import type_dictionary, restaurant_dictionary;
 from modules.display import display_restaurants;
 from modules.sorters import quick_sort;

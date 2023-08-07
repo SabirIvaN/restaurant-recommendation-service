@@ -1,2 +1,10 @@
+build:
+	chmod +x ./src/app.py
+
+start:
+	chmod +x ./src/app.py
+	./src/app.py
+
 run:
-	python3 ./src/app.py
+	./src/app.py
+	
