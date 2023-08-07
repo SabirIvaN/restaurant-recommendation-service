@@ -17,10 +17,3 @@ def restaurant_dictionary(list):
             continue
         rest_dict[restaurant[0]] += [restaurant[1:]]
     return rest_dict
-
-# Types of food for conclusions
-if __name__ == "__main__":
-    print(type_dictionary([
-        'german', 'japanese', 'vegetarian', 'french', 'african', 
-        'american', 'barbecue', 'czech', 'chinese', 'thai',
-        'mexican', 'indian', 'cafe', 'pizza', 'italian']))

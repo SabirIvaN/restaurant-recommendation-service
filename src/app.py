@@ -1,9 +1,9 @@
-from modules.dictionaries import *;
-from modules.display import *;
-from modules.sorters import *;
+from modules.dictionaries import type_dictionary, restaurant_dictionary;
+from modules.display import display_restaurants;
+from modules.sorters import quick_sort;
 
-from database.restaurants import *;
-from database.types import *;
+from database.restaurants import restaurant_data;
+from database.types import types;
 
 sorted_types = quick_sort(types)
 organized_restaurants = restaurant_dictionary(restaurant_data)
