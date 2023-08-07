@@ -54,3 +54,5 @@ def main():
         else:
             print("That was not an option.")
             confirmation = input(f"Would you like to view {type_choice} restaurants?\ny/n: ").strip().lower()
+
+main()
