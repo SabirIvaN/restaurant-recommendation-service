@@ -1,4 +1,4 @@
-# Restaurant Recommendation Service
+# Recommendation Service
 
 This project was created to study Data Science on the Codecademy portal. It gives restaurant recommendations for food that people like.
 
